@@ -1,0 +1,17 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Receiver", "Receiver\Receiver.csproj", "{69B4B79A-22AD-471D-B770-F5B1C3DAF514}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{69B4B79A-22AD-471D-B770-F5B1C3DAF514}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{69B4B79A-22AD-471D-B770-F5B1C3DAF514}.Debug|x86.Build.0 = Debug|Any CPU
+		{69B4B79A-22AD-471D-B770-F5B1C3DAF514}.Release|x86.ActiveCfg = Release|Any CPU
+		{69B4B79A-22AD-471D-B770-F5B1C3DAF514}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
