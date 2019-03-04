@@ -39,11 +39,11 @@ namespace Receiver
                     date_start = DateTime.Now.Ticks,
                     date_expiry = signal.date_expiry,
                     duration = signal.tfdigi,
-                    duration_unit = signal.tfdur
-                    //symbol = ?
+                    duration_unit = signal.tfdur,
+                    symbol = signal.symbol
                 };
-                //binarySignal.passthrough = ?
-                //binarySignal.req_id = ?
+                binarySignal.passthrough = new BinaryTradeSignalPassthrough { CorrectionId = 1 };
+                binarySignal.req_id = 777;
 
                 jsonMessage = JsonConvert.SerializeObject(binarySignal);
 
